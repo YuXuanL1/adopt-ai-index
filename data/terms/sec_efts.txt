@@ -1,0 +1,14 @@
+Reviewed source: SEC EDGAR full-text search access policy
+Review date: 2026-11-05
+Official policy: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
+
+Use for this project: the SEC full-text search service is a discovery tool for public
+EDGAR filings. Any resulting evidence will be tied back to the original filing URL.
+
+Collection conditions noted in the SEC policy:
+- Follow fair-access practices, including no more than 10 requests per second.
+- Use efficient, limited requests and a declared User-Agent with contact information.
+- Do not use automated collection outside the SEC's acceptable policy.
+
+Project decision proposed: approved for limited API discovery under the same controls
+as the SEC filings APIs.

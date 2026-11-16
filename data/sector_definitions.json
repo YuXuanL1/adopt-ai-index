@@ -1,0 +1,30 @@
+{
+  "asset_mgmt": {
+    "label": "Investment / Asset Management",
+    "definition": "We are an investment management firm. We manage assets for institutional and retail clients through mutual funds, exchange-traded funds (ETFs), separately managed accounts, collective investment trusts and alternative investments. Our revenue comes mainly from investment advisory and management fees based on assets under management (AUM). Our portfolio managers and research analysts build portfolios across equity, fixed income, multi-asset, index and active strategies, and our results depend on investment performance, fund flows and fee rates."
+  },
+  "retirement": {
+    "label": "Retirement Plan Provider / Recordkeeper",
+    "definition": "We provide recordkeeping and administration for employer-sponsored retirement plans, including defined contribution 401(k), 403(b) and 457 plans and defined benefit plans. We serve plan sponsors and millions of plan participants with participant accounts, enrollment and auto-enrollment, contribution and auto-escalation features, participant advice and managed accounts, target-date investment options, retirement income and decumulation solutions, and workplace savings and financial wellness tools."
+  },
+  "bank": {
+    "label": "Banks (Universal / Commercial)",
+    "definition": "We are a bank holding company regulated by the Federal Reserve, the OCC and the FDIC. Our banking subsidiaries take deposits and make consumer and commercial loans, including mortgages, credit cards, auto loans and commercial real estate loans, through branches, ATMs and digital banking. We earn net interest income, manage credit losses and the allowance for loan losses, and provide treasury, payments, cash management and corporate and investment banking services. We are subject to capital and liquidity requirements such as CET1 and stress tests."
+  },
+  "insurance": {
+    "label": "Insurance Companies",
+    "definition": "We are an insurance company. We underwrite and issue life insurance, annuities, group benefits, disability, dental and accident and health insurance. We collect premiums, pay policyholder benefits and claims, hold statutory reserves, invest our general account portfolio, and use reinsurance. Our results depend on mortality, morbidity, lapse and interest-rate assumptions, and we are regulated by state insurance departments and the NAIC, with risk-based capital requirements."
+  },
+  "broker_wealth": {
+    "label": "Broker-Dealers / Wealth Management",
+    "definition": "We are a broker-dealer and wealth management firm. Our financial advisors serve individual investors and families with brokerage accounts, fee-based advisory accounts, financial planning, trading and execution, margin lending and custody of client assets. We earn commissions, asset-based advisory fees, and interest on client cash sweep balances. Our broker-dealer and investment adviser subsidiaries are registered with the SEC and FINRA."
+  },
+  "fintech": {
+    "label": "Fintech / AI-Native Firms",
+    "definition": "We are a technology-driven financial platform. Clients sign up and manage their money online through our mobile app and website, using automated, algorithm-driven investing (a robo-advisor), automated portfolio rebalancing and tax-loss harvesting, high-yield cash accounts, and software that replaces human advisors. Our engineers build the product, and we grow through digital client acquisition with low fees."
+  },
+  "pension": {
+    "label": "Pension Funds / Public Plans (optional)",
+    "definition": "We are a public pension fund that provides retirement, disability and survivor benefits to public employees such as teachers and state workers. A board of trustees oversees the fund's investment portfolio, funded status, actuarial assumptions, employer and member contributions, and benefit payments to retirees and beneficiaries."
+  }
+}

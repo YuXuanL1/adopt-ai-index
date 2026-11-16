@@ -1,0 +1,16 @@
+forms,label,pattern,case_sensitive,notes
+10-K;ARS,Item 1 Business,\bItem 1\. Business,y,"Requires 'Item 1.' with a period - cross-references ('Part I, Item 1A: Risk Factors on pages') use a colon or comma"
+10-K;ARS,Item 1A Risk Factors,\bItem 1A\. Risk Factors,y,
+10-K;ARS,Item 1C Cybersecurity,\bItem 1C\. Cybersecurity,y,
+10-K;ARS,Items 2-15 (other items),\bItem (?:[2-6]|9[ABC]?|1[0-5])\. [A-Z],y,
+10-K;ARS;10-Q,MD&A,Management’s [Dd]iscussion and [Aa]nalysis|Management's [Dd]iscussion and [Aa]nalysis,y,JPM repeats this as a page header on every MD&A page
+10-K;ARS;10-Q,Notes to financial statements,Notes to consolidated financial statements,n,Page header
+10-K;ARS;10-Q,Forward-looking statements,Forward-[Ll]ooking [Ss]tatements,y,
+10-Q,Part II Item 1A Risk Factors,\bItem 1A\. Risk Factors,y,
+ARS,Shareholder letters (CEO + business heads),Dear Fellow Shareholders,y,"Front of the annual report: CEO letter, then letters from each line-of-business CEO (until the 10-K pages start)"
+DEF 14A,Proxy summary,Proxy summary,n,
+DEF 14A,Director nominees,Director nominees,n,"Director bios - AI here is usually board expertise, not firm use"
+DEF 14A,Corporate governance,Corporate governance,n,
+DEF 14A,Executive compensation,Executive compensation|Compensation Discussion and Analysis,n,CEO/NEO pay narrative - often lists AI achievements
+DEF 14A,Shareholder proposals,Shareholder proposals?,n,Proposals sometimes ask for AI reports
+8-K,Earnings release (EX-99.1),Reported Results,n,

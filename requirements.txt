@@ -1,0 +1,12 @@
+# Core (Parts 1 and 1.5)
+requests>=2.31
+beautifulsoup4>=4.12
+numpy>=1.26
+scikit-learn>=1.4
+pytest>=8.0
+# Part 2: read annual-report (ARS) PDFs
+pypdf>=5.0
+# Part 2: Word copy of the taxonomy document (optional - the Markdown is always written)
+python-docx>=1.1
+# Optional: embeddings for `--nlp-check --nlp-method embed` (downloads a ~90 MB model the first time)
+# sentence-transformers>=3.0

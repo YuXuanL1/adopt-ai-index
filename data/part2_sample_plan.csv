@@ -1,0 +1,6 @@
+form,docs_per_firm,notes
+10-K,2,Main source of AI text in 10-K/10-Q/8-K. Picks are spread over different years
+10-Q,2,Little AI text (JPM: 0 hits 2024-25; 1 boilerplate line per filing in 2026). Kept so the sample shows that
+8-K,2,"Earnings 8-K: cover + EX-99.1 narrative + EX-99.2 supplement. Mostly macro commentary on AI"
+DEF 14A,1,Proxy: director AI expertise and CEO pay narrative on AI progress
+ARS,2,Annual report PDF incl. the CEO shareholder letter - richest AI text. Also repeats the 10-K (duplicates are flagged)

@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+data/cache/
+data/raw/
+data/descriptions_auto/
+outputs/*
+!outputs/part2/
+outputs/part2/*
+!outputs/part2/taxonomy_document.docx
+!outputs/part2/taxonomy_document.md
+.DS_Store
+.pytest_cache/

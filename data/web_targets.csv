@@ -1,0 +1,4 @@
+target_id,source_id,url,purpose
+# Add one approved public page per row. Before running web_scrape.py, change the matching
+# source's access_method to web only when its terms allow HTML automation and mark its
+# human_decision approved in outputs/part1/source_register.csv.

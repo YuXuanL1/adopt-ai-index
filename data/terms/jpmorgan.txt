@@ -1,0 +1,22 @@
+Reviewed source: J.P. Morgan Terms of Use
+Review date: 2026-11-06
+Official policy: https://www.jpmorgan.com/global/terms
+Page shows no last-updated date.
+
+Clauses noted (verbatim excerpts):
+- "You agree that you will not use any robot, spider, other automatic device or manual process to monitor or
+  copy our web pages, data or the content contained herein or for any other unauthorized purpose without our
+  prior expressed written permission."
+- "You are strictly prohibited from unauthorized use of our systems or this website"
+- Materials "may not be copied, transmitted, displayed, performed, distributed (for compensation or otherwise),
+  ... stored for subsequent use, or otherwise used in whole or in part in any manner without the owner's prior
+  written consent"
+- "Materials and information posted on the Website may not be duplicated, copied, re-disseminated or
+  re-distributed to any other person or entity."
+- Personal use only: "you may download information and print out a copy for your personal use" without
+  removing "any copyright or other notice".
+- No clause on APIs or RSS feeds.
+
+Project decision proposed: EXCLUDE from automated collection (robots/spiders explicitly prohibited).
+Careers pages may be read by hand as supporting context; record counts of AI job titles with URL and date,
+do not copy postings. A job post is not proof of deployed AI.

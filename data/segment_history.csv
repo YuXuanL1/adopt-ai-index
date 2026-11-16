@@ -1,0 +1,7 @@
+firm_id,segment_id,segment_name,valid_from,valid_to,current_segment,source
+jpm,ccb,Consumer & Community Banking,,,ccb,JPMorgan FY2024 10-K Note 32
+jpm,cib_old,Corporate & Investment Bank,,2024-03-31,cib,Combined into Commercial & Investment Bank from Q2 2024 (FY2024 10-K Note 32)
+jpm,cb,Commercial Banking,,2024-03-31,cib,Combined into Commercial & Investment Bank from Q2 2024 (FY2024 10-K Note 32)
+jpm,cib,Commercial & Investment Bank,2024-04-01,,cib,JPMorgan FY2024 10-K Note 32
+jpm,awm,Asset & Wealth Management,,,awm,JPMorgan FY2024 10-K Note 32
+jpm,corp,Corporate,,,corp,JPMorgan FY2024 10-K Note 32

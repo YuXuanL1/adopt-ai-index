@@ -1,0 +1,26 @@
+firm_id,name,ticker,cik,hand_sectors,manual_sectors,manual_evidence,desc_forms,notes
+jpm,JPMorgan Chase & Co.,JPM,19617,bank;asset_mgmt;broker_wealth,,,10-K,Sold large-plan recordkeeping to Great-West (now Empower) Aug 2014
+bac,Bank of America Corp,BAC,70858,bank;broker_wealth;asset_mgmt,,,10-K,Merrill and Private Bank inside Global Wealth & Investment Management
+wfc,Wells Fargo & Co,WFC,72971,bank;broker_wealth,,,10-K,
+c,Citigroup Inc.,C,831001,bank;broker_wealth,,,10-K,Named in assignment bank list
+usb,U.S. Bancorp,USB,36104,bank,,,10-K,Named in assignment bank list (U.S. Bank)
+blk,"BlackRock, Inc.",BLK,2012383,asset_mgmt,asset_mgmt,"BlackRock 10-K FY2025 Item 1: ""a leading publicly traded investment management firm"" (https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm). SIC 6211 is a legal label; BlackRock manages DC assets (LifePath) but is not a recordkeeper",10-K,New holding company CIK after the 2024 GIP deal; earlier filings under CIK 1364742
+stt,State Street Corp,STT,93751,asset_mgmt,,,10-K,Custody bank
+ivz,Invesco Ltd.,IVZ,914208,asset_mgmt,,,10-K,
+trow,"T. Rowe Price Group, Inc.",TROW,1113169,asset_mgmt;retirement,,,10-K,Single segment; retirement tag must come from the recordkeeping test
+pfg,Principal Financial Group,PFG,1126328,retirement;asset_mgmt;insurance,,,10-K,
+voya,"Voya Financial, Inc.",VOYA,1535929,retirement;asset_mgmt;insurance,,,10-K,
+empower,Empower Annuity Insurance Company of America,,744455,retirement;insurance,,,10-K;POS AM;S-1;424B3,Subsidiary of Great-West Lifeco; files registration statements rather than a listed company's 10-K
+alit,"Alight, Inc.",ALIT,1809104,retirement,retirement,"Alight newsroom: ""Alight ranked as a top U.S. defined contribution record keeper by Pensions & Investments"" (https://www.alight.com/about/newsroom/alight-top-us-defined-contribution-record-keeper; accessed 2026-11-06); 10-K FY2025 Item 1 only says ""health, wealth"" administration",10-K,Benefits administration; confirm defined-contribution recordkeeping scope
+lnc,Lincoln National Corp,LNC,59558,insurance;retirement,,,10-K,Has a Retirement Plan Services segment
+met,MetLife Inc,MET,1099219,insurance,,,10-K,
+pru,Prudential Financial Inc,PRU,1137774,insurance;asset_mgmt,,,10-K,Sold full-service retirement recordkeeping to Empower in 2022
+schw,Charles Schwab Corp,SCHW,316709,broker_wealth,,,10-K,Also runs Schwab Retirement Plan Services; the recordkeeping test decides
+ms,Morgan Stanley,MS,895421,broker_wealth;asset_mgmt,,,10-K,
+jfc,The Jones Financial Companies LLLP (Edward Jones),,815917,broker_wealth,,,10-K,Partnership; files 10-K but has no listed stock
+wlth,Wealthfront Corp,WLTH,1524566,fintech,fintech,Digital-only automated investing platform; assignment's AI-native benchmark group (cite its 10-K Item 1),10-K;S-1,Fiscal year ends January 31
+fidelity,Fidelity Investments (FMR LLC),,,asset_mgmt;retirement;broker_wealth,asset_mgmt;retirement;broker_wealth,"Fidelity Workplace site: No.1 provider of workplace savings plans, 75 years of recordkeeping and investment experience (https://www.fidelityworkplace.com/s/advisor/article/recordkeeper-evaluations; accessed 2026-11-06); Fidelity Q2 2026 Retirement Analysis covers 27,300 corporate DC plans (https://newsroom.fidelity.com/pressreleases/fidelity--q2-2026-retirement-analysis--record-savings-rates-help-drive-401-k---403-b--and-ira-balanc/s/bca5d71f-ebda-4289-bdd5-a90abde7feba); brokerage and mutual funds per same sites",,Private; no 10-K
+vanguard,The Vanguard Group,,,asset_mgmt;retirement,asset_mgmt;retirement,Vanguard Workplace: 401(k) recordkeeping solutions (https://workplace.vanguard.com/401k-plans/recordkeeping-built-for-the-way-clients-do-business.html; accessed 2026-11-06). Note: small/midsize plans (VRPA) are recordkept by Ascensus on Vanguard's behalf,,Private (client-owned); no 10-K
+tiaa,TIAA,,,retirement;asset_mgmt;insurance,retirement;asset_mgmt;insurance,"TIAA retirement product primer: TIAA offers employers (primarily nonprofit, education, research, health care) recordkeeping services; Nuveen is TIAA's asset management division; TIAA Traditional annuity (https://www.tiaa.org/public/pdf/t/tiaa-retirement-product-primer.pdf; accessed 2026-11-06)",,Parent does not file a 10-K
+nationwide,Nationwide Mutual Insurance Co.,,,insurance;retirement,insurance;retirement,"Nationwide news release: Nationwide Retirement Solutions wins City of Newton 457(b) deferred compensation plan; ~3 million participants in 30,000 plans (https://news.nationwide.com/nationwide-wins-deferred-compensation-plan-for-city-of-newton-massachusetts/; accessed 2026-11-06); insurance per nationwide.com",,Mutual insurer
+betterment,"Betterment Holdings, Inc.",,,fintech,fintech,Betterment LLC Form ADV Part 2A brochure (amended 2026-03-30): registered investment adviser providing a primarily automated investing service (https://www.betterment.com/adv; accessed 2026-11-06),,Private; also offers 401(k) plans via Betterment at Work

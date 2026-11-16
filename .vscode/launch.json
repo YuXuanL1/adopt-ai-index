@@ -1,0 +1,109 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Part 1 - Check sources (robots.txt + terms)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part1_check_sources.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Part 1 - EDGAR pull: DRY RUN (list only)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part1_edgar_pull.py",
+      "args": [
+        "--dry-run"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Part 1 - EDGAR pull: JPMorgan only",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part1_edgar_pull.py",
+      "args": [
+        "--firms",
+        "jpm"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Part 1 - EDGAR pull: all firms",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part1_edgar_pull.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part15_build_universe.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal",
+      "name": "Part 1.5 - Firm universe: all firms"
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part15_build_universe.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal",
+      "name": "Part 1.5 - Firm universe: JPMorgan only",
+      "args": [
+        "--firms",
+        "jpm"
+      ]
+    },
+    {
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part15_build_universe.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal",
+      "name": "Part 1.5 - Firm universe + NLP cross-check",
+      "args": [
+        "--nlp-check"
+      ]
+    },
+    {
+      "name": "Part 2 - Sample documents (draft + coverage)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part2_sample_docs.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Part 2 - Extract AI passages",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part2_extract_ai_passages.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Part 2 - Taxonomy document",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/part2_taxonomy_doc.py",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    }
+  ]
+}

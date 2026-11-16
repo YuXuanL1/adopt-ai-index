@@ -1,0 +1,14 @@
+Reviewed source: SEC EDGAR API documentation
+Review date: 2026-11-05
+Official policy: https://www.sec.gov/search-filings/edgar-application-programming-interfaces
+
+Use for this project: data.sec.gov provides public REST APIs for company submissions
+and extracted XBRL financial data. The APIs deliver JSON and do not require an API key.
+Bulk ZIP downloads are also available for large backfills.
+
+Collection conditions noted in the SEC documentation:
+- Automated access must comply with SEC privacy/security and fair-access requirements.
+- Use the official API or bulk data rather than scraping HTML pages.
+- The project sends a declared User-Agent and follows the SEC request-rate limit.
+
+Project decision proposed: approved for official API/bulk-data collection only.

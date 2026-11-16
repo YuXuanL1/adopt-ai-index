@@ -1,0 +1,24 @@
+term_id,pattern,case_sensitive,strength,notes
+ai_acronym,\bAI\b,y,strong,"Case-sensitive whole word: skips AGAINST, ABSTAIN, OBTAIN, CHAIRMAN, 'Said' and names like GlobalAI (all seen in JPM filings)"
+ai_dotted,\bA\.I\.,y,strong,
+genai,\bGen ?AI\b,n,strong,GenAI / Gen AI (not caught by ai_acronym because there is no word break)
+artificial_intelligence,artificial[- ]intelligence,n,strong,
+machine_learning,machine[- ]learning,n,strong,
+llm_acronym,\bLLMs?\b,y,strong,"Includes JPM's internal 'LLM Suite'"
+large_language_model,large[- ]language[- ]models?,n,strong,
+neural_network,neural[- ]net(?:work)?s?,n,strong,
+deep_learning,deep[- ]learning,n,strong,
+nlp,natural[- ]language (?:processing|understanding|generation),n,strong,
+nlp_acronym,\bNLP\b,y,strong,
+agentic,\bagentic\b,n,strong,"Agentic AI / AI agents (2025+ filings)"
+chatbot,\bchat[- ]?bots?\b,n,strong,
+computer_vision,computer vision,n,strong,
+ai_vendor,\b(?:OpenAI|ChatGPT|Copilot|Anthropic)\b,y,strong,Named AI vendors/products. Add others here as they appear
+ml_acronym,\bML\b,y,weak,"At JPM 'ML' = machine learning, but at Bank of America it usually means Merrill Lynch - only counts next to a strong term"
+algorithm,\balgorithm(?:s|ic|ically)?\b,n,weak,"Often not AI: 'algorithmic trading', 'errors in formulas or algorithms' (JPM 10-K risk factors)"
+automation,\b(?:automation|automated|automate|automates|automating)\b,n,weak,"Often not AI: 'automated valuation model' for home prices (JPM 10-K credit section)"
+predictive,\bpredictive (?:model|modeling|modelling|analytics|AI)s?\b,n,weak,
+data_science,\bdata scien(?:ce|tists?)\b,n,weak,
+rpa,robotic process automation|\bRPA\b,n,weak,Rules-based bots; not AI unless the passage says so
+virtual_assistant,\b(?:virtual|digital) (?:financial )?assistants?\b,n,weak,"e.g. Bank of America's Erica; counts only next to a strong term"
+merrill_ml,"(?:BofA|Merrill(?: Lynch)?)[ ,]*\(?ML\)?",y,exclude,"Any ML hit inside this match is dropped. Expected for BAC (not yet downloaded) - check once its filings arrive"

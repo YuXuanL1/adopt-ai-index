@@ -1,0 +1,15 @@
+firm_id,pattern,sectors,exclude,note
+,"^(corporate|other|all other( segments)?|eliminations?|reconciling( items)?|intersegment\w*( eliminations?)?|corporate (and|&) (other|eliminations?))$",,y,"Not a business line (whole label only, so ""Corporate and Investment Banking"" is NOT excluded)"
+,\b(asset management|investment management|asset\s?(and\s?|&\s?)?wealth|global investments?|investments? solutions)\b,asset_mgmt,n,Manages funds or portfolios for clients
+,\b(investment servicing|investment services|custody|securities services|asset servicing)\b,asset_mgmt,n,Custody banks are grouped with asset managers (GICS Asset Management & Custody Banks)
+,\b(wealth|private bank|brokerage|investor services|advisor services|financial advis\w*)\b,broker_wealth,n,Advice and brokerage for individuals
+,\b(institutional securities|securities)\b,broker_wealth,n,Broker-dealer activity (NAICS 523110)
+,\b(retirement plan|workplace|record\s?keep\w*|defined contribution)\b,retirement,n,Employer retirement plans
+,\b(retirement)\b,retirement,n,Check: insurers use 'retirement' for annuities and pension risk transfer
+,\b(insurance|life|annuit\w*|group benefits|benefits|protection|health solutions|individual)\b,insurance,n,Insurance products
+,\b(bank\w*|consumer|commercial|cards?|lending|(global|capital) markets)\b,bank,n,"Deposits and lending; investment banking and markets (not bare ""markets"": Empower's Individual Markets is insurance)"
+voya,wealth solutions,retirement,n,Voya Wealth Solutions is its retirement-plan business
+met,retirement (and|&) income solutions,insurance,n,MetLife RIS = pension risk transfer and annuities (insurance) not recordkeeping
+pru,pgim,asset_mgmt,n,PGIM is Prudential's asset manager
+pru,retirement strategies,insurance,n,Prudential Retirement Strategies = annuities and pension risk transfer
+met,^(asia|latin america|emea)$,insurance,n,MetLife geographic segments sell life/health insurance and annuities outside the US

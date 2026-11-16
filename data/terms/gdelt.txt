@@ -1,0 +1,14 @@
+Reviewed source: GDELT Terms of Use
+Review date: 2026-11-05
+Official policy: https://gdeltproject.org/about.html
+
+Use for this project: GDELT may be used to discover relevant news coverage and public
+article links. It is supplemental context, not the primary evidence for a firm's score.
+
+Conditions noted in the GDELT terms:
+- GDELT describes its released datasets as available for unrestricted academic use.
+- Use or redistribution must cite the GDELT Project and link to its website.
+- Keep the original article URL/date and verify material claims against the article or
+  a primary source before using them in the index.
+
+Project decision proposed: approved for API-based discovery with GDELT attribution.

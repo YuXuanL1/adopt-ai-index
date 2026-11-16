@@ -1,0 +1,11 @@
+{
+  "_comment": "Part 2 settings. Edit here - no code changes needed. See README section 'Part 2'.",
+  "seed": 20261109,
+  "pilot_firms": ["jpm", "bac", "wfc", "c", "usb"],
+  "target_docs_min": 30,
+  "target_docs_max": 50,
+  "context_sentences": 1,
+  "weak_window_sentences": 2,
+  "max_passage_sentences": 6,
+  "max_passage_chars": 3000
+}

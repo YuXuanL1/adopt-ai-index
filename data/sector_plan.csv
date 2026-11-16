@@ -1,0 +1,8 @@
+sector_id,label,coverage,min_firms,backfill_quarters,min_share,include,notes
+retirement,Retirement Plan Providers / Recordkeepers,deep,10,16,0,y,Feeds the book chapter: more firms and deeper history (assignment Part 1.5 notes). min_share 0: any reportable segment dedicated to retirement plans counts (e.g. Lincoln RPS = 7% of revenue) - the firm itself reports the business line separately
+asset_mgmt,Investment / Asset Management,standard,5,12,0.10,y,
+bank,Banks (Universal / Commercial),standard,5,12,0.10,y,
+insurance,Insurance Companies,standard,5,12,0.10,y,
+broker_wealth,Broker-Dealers / Wealth Management,standard,5,12,0.10,y,
+fintech,Fintech / AI-Native Firms,standard,2,12,0.10,y,High AI-intensity benchmark group; few are SEC filers
+pension,Pension Funds / Public Plans,optional,0,12,0.10,n,Optional in the assignment; set include=y and add firms to use it

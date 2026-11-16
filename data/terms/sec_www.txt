@@ -1,0 +1,16 @@
+Reviewed source: SEC EDGAR access policy
+Review date: 2026-11-05
+Official policy: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
+
+Use for this project: SEC EDGAR filings are public and may be accessed through the
+SEC's official download routes. The project will not crawl the EDGAR HTML interface
+when an API or bulk-data route is available.
+
+Collection conditions noted in the SEC policy:
+- Current maximum request rate: 10 requests per second.
+- Use efficient scripting; download only what is needed and minimize server load.
+- Send a declared User-Agent header that identifies the requester and contact email.
+- Do not use botnets or other automated tools outside the SEC's acceptable policy.
+
+Project decision proposed: use the official SEC APIs/bulk downloads at 5 requests per
+second or less, with the declared team User-Agent. Preserve filing URLs and dates for citation.
